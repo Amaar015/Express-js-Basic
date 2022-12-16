@@ -29,10 +29,15 @@ app.get('/about',(req,res)=>{
 
     });
 });
-  app.get('/',(req,res)=>{
-             res.status(200).send('Hello i am from home page')
+app.get('/about/aboutus',(req,res)=>{
+                     res.render('aboutus') 
 })
 
+app.get('*',(req,res)=>{
+       res.render('404',{
+        errorcomment:'Opps page dose not exists'
+       })
+})
 
 
 app.listen(port,()=>{
