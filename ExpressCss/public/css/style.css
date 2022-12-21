@@ -20,3 +20,65 @@ nav ul{
     display: flex;
     gap: 2rem;
 }
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: palevioletred;
+}
+
+/* Home */
+ .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    width: 100%;
+    height: 80%;
+    background: white;
+ }
+ .left-h h2{
+       font-size: 3rem;
+       margin-left: -2rem;
+ }
+  .link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 6rem;
+    height: 2rem;
+   margin-top: 2rem;
+    color: palevioletred;
+ }
+ .right-h img{
+    width: 25rem;
+    height: 25rem;
+ }
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:auto;
+    background-color:#05386b;
+    color: white;
+    text-align: center;
+    padding:4px 0;
+ } 
+.footer ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.footer ul li{
+    list-style: none;
+
+}
+.footer ul li a{
+     text-decoration: none;
+     font-size: 1.3rem;
+     color: palevioletred;
+
+}
